@@ -1,7 +1,6 @@
 ---
 - name: Deploy a jar file
-  hosts: ubuntu20
-  remote_user: user1
+  hosts: all
   tasks:
     - name: Copy jar file to home directory
       copy:
